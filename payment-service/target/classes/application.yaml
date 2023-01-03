@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    function:
+      definition: paymentSupplier;riskEngineEventConsumer
+    stream:
+      bindings:
+        paymentSupplier-out-0:
+          destination: payment-event
+        riskEngineEventConsumer-in-0:
+          destination: riskEngine-event
+
+
+
+server:
+  port: 8080

@@ -1,0 +1,9 @@
+com\danielbenami\commons\CommonApplication.class
+com\danielbenami\commons\dto\PaymentRequestDto.class
+com\danielbenami\commons\dto\RiskEngineRequestDto.class
+com\danielbenami\commons\event\PaymentEvent.class
+com\danielbenami\commons\event\RiskEnginePaymentStatus.class
+com\danielbenami\commons\dto\PaymentResponseDto.class
+com\danielbenami\commons\event\RiskEngineEvent.class
+com\danielbenami\commons\event\Event.class
+com\danielbenami\commons\event\PaymentStatus.class
